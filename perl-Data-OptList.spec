@@ -1,7 +1,7 @@
 Name:           perl-Data-OptList
 Summary:        Parse and validate simple name/value option pairs
 Version:        0.107
-Release:        8%{?dist}
+Release:        9%{?dist}
 License:        GPL+ or Artistic
 Group:          Development/Libraries
 URL:            http://search.cpan.org/dist/Data-OptList/
@@ -65,6 +65,9 @@ make test RELEASE_TESTING=1
 %{_mandir}/man3/Data::OptList.3pm*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.107-9
+- Mass rebuild 2013-12-27
+
 * Tue Nov 13 2012 Jitka Plesnikova <jplesnik@redhat.com> - 0.107-8
 - Fix wrong script interpreter
 
